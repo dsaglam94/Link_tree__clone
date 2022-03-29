@@ -1,0 +1,33 @@
+.cursor {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--clr-secondary);
+    background-color: transparent;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease;
+    transition-property: background, transform; 
+    z-index: 2;
+
+}
+
+.cursor-grow {
+    border: none;
+    background-color: var(--clr-cursor-bg);
+    mix-blend-mode: difference;
+    transform: scale(3);
+ 
+}
+
+// Theme Button
+
+.theme-btn {
+    position: absolute;
+    z-index: 1;
+    color: var(--clr-secondary);
+    top: 8%;
+    left: 8%;
+}
+
