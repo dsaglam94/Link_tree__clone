@@ -67,3 +67,9 @@
         left: -50%;
     }
 }
+
+@include mobile-only {
+    .cursor {
+       visibility: hidden;
+    }
+}

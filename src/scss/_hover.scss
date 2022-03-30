@@ -1,0 +1,11 @@
+@include hoverNot-mobile {
+    .main__title:hover .title-span {
+        color: var(--clr-secondary);
+        -webkit-text-stroke: 0px;
+    }
+
+    .main__links--items-container:hover .span {
+        transform: translateX(50px);
+    }
+
+}

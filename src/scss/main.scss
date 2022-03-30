@@ -3,6 +3,7 @@
 @import 'components';
 @import 'footer';
 @import 'loader';
+@import 'hover';
 
 *, 
 *::before, 
@@ -157,16 +158,16 @@
     }
 }
 
-@media (hover: hover) and (pointer: fine) {
-    .main__title:hover .title-span {
-        color: var(--clr-secondary);
-        -webkit-text-stroke: 0px;
-    }
+// @media (hover: hover) and (pointer: fine) {
+//     .main__title:hover .title-span {
+//         color: var(--clr-secondary);
+//         -webkit-text-stroke: 0px;
+//     }
 
-    .main__links--items-container:hover .span {
-        transform: translateX(50px);
-    }
+//     .main__links--items-container:hover .span {
+//         transform: translateX(50px);
+//     }
 
-  }
+//   }
 
 @import 'responsive';
