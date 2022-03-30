@@ -70,6 +70,7 @@
 
 @include mobile-only {
     .cursor {
-       visibility: hidden;
+        visibility: hidden;
+        display: none;
     }
 }

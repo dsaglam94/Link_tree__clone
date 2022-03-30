@@ -332,9 +332,10 @@ input, button, textarea, select {
     left: -50%;
   }
 }
-@media (pointer: none) and (max-width: 810px) {
+@media (pointer: coarse) {
   .cursor {
     visibility: hidden;
+    display: none;
   }
 }
 

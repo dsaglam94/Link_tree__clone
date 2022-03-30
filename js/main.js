@@ -46,21 +46,6 @@ themeBtn.addEventListener('click', () => {
 
 //  Cursor Grow Effect =============================
 
-window.addEventListener('resize', checkForSize);
-
-function checkForSize () {
-    let screenSize = window.innerWidth
-
-    if (screenSize > 400) {
-        cursorGrow();
-    } else if (screenSize < 600) {
-        
-    }
-}
-
-checkForSize();
-
-function cursorGrow() {
     linkItems.forEach(item => {
         item.addEventListener('mouseover', () => {
             mouseCursor.classList.add('cursor-grow');
@@ -102,7 +87,7 @@ function cursorGrow() {
     footerCopyright.addEventListener('mouseleave', () => {
         mouseCursor.classList.remove('cursor-grow');
     })
-}
+
 
 
 //  Loader ==============================

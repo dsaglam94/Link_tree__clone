@@ -7,12 +7,12 @@
 }
 
 @mixin mobile-only {
-    @media (pointer: none) and (max-width: 810px) {
+    @media (pointer: coarse) {
         @content;
     }
 }
 
-@mixin hoverNot-mobile {
+@mixin hover-desktop {
     @media (hover: hover) and (pointer: fine) {
         @content;
     }
