@@ -211,10 +211,6 @@ input, button, textarea, select {
   -webkit-text-stroke: 1px var(--clr-secondary);
   transition: all 0.5s ease;
 }
-.main__title:hover .title-span {
-  color: var(--clr-secondary);
-  -webkit-text-stroke: 0px;
-}
 .main__links {
   width: 400px;
   max-width: 70%;
@@ -248,9 +244,6 @@ input, button, textarea, select {
 .main__links--items-container span {
   transition: all 1s ease;
 }
-.main__links--items-container:hover .span {
-  transform: translateX(50px);
-}
 .main__links--items-container:hover i {
   color: var(--clr-accent);
 }
@@ -275,6 +268,16 @@ input, button, textarea, select {
   margin-inline: 1rem;
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .main__title:hover .title-span {
+    color: var(--clr-secondary);
+    -webkit-text-stroke: 0px;
+  }
+
+  .main__links--items-container:hover .span {
+    transform: translateX(50px);
+  }
+}
 @media (max-width: 400px) {
   .main__title {
     font-size: 2rem;
