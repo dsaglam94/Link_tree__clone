@@ -72,23 +72,6 @@ themeBtn.addEventListener('click', () => {
         mouseCursor.classList.remove('cursor-grow');
     })
     
-    footerLogo.addEventListener('mouseover', () => {
-        mouseCursor.classList.add('cursor-grow');
-    })
-    
-    footerLogo.addEventListener('mouseleave', () => {
-        mouseCursor.classList.remove('cursor-grow');
-    })
-    
-    footerCopyright.addEventListener('mouseover', () => {
-        mouseCursor.classList.add('cursor-grow');
-    })
-    
-    footerCopyright.addEventListener('mouseleave', () => {
-        mouseCursor.classList.remove('cursor-grow');
-    })
-
-
 
 //  Loader ==============================
 

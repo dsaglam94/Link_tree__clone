@@ -10,7 +10,14 @@ I used:
 - HTML5
 - JavaScript 
 
-It's not finished yet. But so far I added **Dark Theme and localStorage** 
+It's not finished yet. But so far:
+
+- Added **Dark Theme and localStorage** 
+- Fixed the mobile device issues caused by 'custom cursor'
+- Removed the unnecessary hover effects on mobile devices
+- Improved the accesibilty
 
 Will change the **loader** screen and add the logo. 
+
+
 

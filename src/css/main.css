@@ -21,11 +21,20 @@
 }
 
 .theme-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0.3em 0.5em;
   position: absolute;
   z-index: 1;
   color: var(--clr-secondary);
-  top: 8%;
-  left: 8%;
+  top: 7%;
+  left: 5%;
+  font-size: 1.2rem;
+}
+.theme-btn:focus {
+  border-radius: 5px;
+  border: 1px solid var(--clr-secondary);
 }
 
 .footer {
@@ -45,7 +54,7 @@
   padding: 1em;
 }
 .footer__copyright {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   padding: 1em;
 }
 
@@ -264,6 +273,7 @@ input, button, textarea, select {
   -webkit-text-stroke: 1px var(--clr-secondary);
 }
 .main__links--link {
+  width: 100%;
   display: flex;
   align-items: center;
   color: var(--clr-secondary);
@@ -287,6 +297,7 @@ input, button, textarea, select {
   }
 
   .footer {
+    text-align: center;
     margin-top: 3em;
     flex-direction: column;
   }

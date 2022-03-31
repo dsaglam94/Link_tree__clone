@@ -80,11 +80,6 @@
         -webkit-text-stroke: 1px var(--clr-secondary);
         transition: all .5s ease;
        }
-
-    //    &:hover .title-span {
-    //        color: var(--clr-secondary);
-    //        -webkit-text-stroke: 0px;
-    //    }
     }
 
     &__links {
@@ -123,10 +118,6 @@
                 transition: all 1s ease;
             }
 
-            // &:hover .span {
-            //     transform: translateX(50px);
-            // }
-
             &:hover i{
                 color: var(--clr-accent);
             }
@@ -141,6 +132,7 @@
         }
 
         &--link {
+            width: 100%;
             display: flex;
             align-items: center;
             color: var(--clr-secondary);
@@ -158,16 +150,5 @@
     }
 }
 
-// @media (hover: hover) and (pointer: fine) {
-//     .main__title:hover .title-span {
-//         color: var(--clr-secondary);
-//         -webkit-text-stroke: 0px;
-//     }
-
-//     .main__links--items-container:hover .span {
-//         transform: translateX(50px);
-//     }
-
-//   }
 
 @import 'responsive';
