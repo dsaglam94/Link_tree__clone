@@ -5,3 +5,15 @@
         @content;
     }
 }
+
+@mixin mobile-only {
+    @media (pointer: coarse) {
+        @content;
+    }
+}
+
+@mixin hover-desktop {
+    @media (hover: hover) and (pointer: fine) {
+        @content;
+    }
+}

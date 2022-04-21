@@ -44,49 +44,34 @@ themeBtn.addEventListener('click', () => {
      mouseCursor.style.left = e.clientX + "px";
  }
 
-//  Cursor Grow Effect ==============================
+//  Cursor Grow Effect =============================
 
-linkItems.forEach(item => {
-    item.addEventListener('mouseover', () => {
+    linkItems.forEach(item => {
+        item.addEventListener('mouseover', () => {
+            mouseCursor.classList.add('cursor-grow');
+        });
+    
+        item.addEventListener('mouseleave', () => {
+            mouseCursor.classList.remove('cursor-grow');
+        }); 
+    })
+    
+    themeBtn.addEventListener('mouseover', () => {
         mouseCursor.classList.add('cursor-grow');
-    });
-
-    item.addEventListener('mouseleave', () => {
+    })
+    
+    themeBtn.addEventListener('mouseleave', () => {
         mouseCursor.classList.remove('cursor-grow');
-    }); 
-})
-
-themeBtn.addEventListener('mouseover', () => {
-    mouseCursor.classList.add('cursor-grow');
-})
-
-themeBtn.addEventListener('mouseleave', () => {
-    mouseCursor.classList.remove('cursor-grow');
-})
-
-mainTitle.addEventListener('mouseover', () => {
-    mouseCursor.classList.add('cursor-grow');
-})
-
-mainTitle.addEventListener('mouseleave', () => {
-    mouseCursor.classList.remove('cursor-grow');
-})
-
-footerLogo.addEventListener('mouseover', () => {
-    mouseCursor.classList.add('cursor-grow');
-})
-
-footerLogo.addEventListener('mouseleave', () => {
-    mouseCursor.classList.remove('cursor-grow');
-})
-
-footerCopyright.addEventListener('mouseover', () => {
-    mouseCursor.classList.add('cursor-grow');
-})
-
-footerCopyright.addEventListener('mouseleave', () => {
-    mouseCursor.classList.remove('cursor-grow');
-})
+    })
+    
+    mainTitle.addEventListener('mouseover', () => {
+        mouseCursor.classList.add('cursor-grow');
+    })
+    
+    mainTitle.addEventListener('mouseleave', () => {
+        mouseCursor.classList.remove('cursor-grow');
+    })
+    
 
 //  Loader ==============================
 

@@ -24,10 +24,20 @@
 // Theme Button
 
 .theme-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: .3em .5em;
     position: absolute;
     z-index: 1;
     color: var(--clr-secondary);
     top: 8%;
-    left: 8%;
+    left: 5%;
+    font-size: 1.2rem;
+
+    &:focus {
+        border-radius: 5px;
+        border: 1px solid var(--clr-secondary);
+    }
 }
 
