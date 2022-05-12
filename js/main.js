@@ -75,20 +75,20 @@ themeBtn.addEventListener('click', () => {
 
 //  Loader ==============================
 
-const loader = document.querySelector('.box');
-const main = document.querySelector('.main');
+// const loader = document.querySelector('.box');
+// const main = document.querySelector('.main');
 
-function init () {
-    setTimeout(() => {
-        loader.style.opacity = 0;
-        loader.style.display = 'none';
+// function init () {
+//     setTimeout(() => {
+//         loader.style.opacity = 0;
+//         loader.style.display = 'none';
 
-        main.style.pointerEvents = 'all';
-        setTimeout(() => (main.style.opacity = 1), 50);
+//         main.style.pointerEvents = 'all';
+//         setTimeout(() => (main.style.opacity = 1), 50);
 
-    }, 2500);
-}
+//     }, 2500);
+// }
 
-init();
+// init();
 
 
